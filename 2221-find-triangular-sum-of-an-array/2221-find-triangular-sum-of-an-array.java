@@ -7,8 +7,8 @@ class Solution {
                nums[j]=nums[j]%10;
              //  System.out.print(nums[j]+" "+j+" ");
         }
-        System.out.println();
+        //System.out.println();
      } 
-     return nums[0]%10;  
+     return nums[0];  
     }
 }
