@@ -20,7 +20,7 @@ class Solution {
         head=head.next;
         i1++;
       }  
-      System.out.println(arr);
+      //System.out.println(arr);
       int ans[]={-1,-1};
       if(arr.size()>1){
         int max=arr.get(arr.size()-1)-arr.get(0);
